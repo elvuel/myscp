@@ -15,5 +15,5 @@ go install github.com/elvuel/myscp@latest
 myscp -h host:2222 -u user -k ~/.ssh/id_rsa -l /home/user/some.txt -r /home/user/some.txt -ori rtl
 
 # local to remote
-myscp -h host:2222 -u user -k ~/.ssh/id_rsa -l /home/user/some.txt -r /home/user/some.txt -ori rtl
+myscp -h host:2222 -u user -k ~/.ssh/id_rsa -l /home/user/some.txt -r /home/user/some.txt -ori ltr
 ```
